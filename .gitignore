@@ -1,0 +1,32 @@
+# Godot 4+
+.godot/
+.import/
+
+
+
+# Build output (APKs live in GitHub Releases, not in the repo)
+build/
+android/build/
+*.apk
+*.aab
+*.idsig
+
+
+
+# Keystore password file — committed on purpose so PC setup is reproducible
+# export_credentials.cfg stays tracked
+
+
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+
+
+# Logs
+*.log
